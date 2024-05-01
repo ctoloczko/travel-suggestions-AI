@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -21,10 +22,10 @@
       <p class="instructions">
         Describe your dream trip by specifying your desired temperature,
         preferred type of destination, and activities you love. Don't forget to
-        mention if where you are currently based and how far you want to travel!
+        mention where you are currently based and how far you want to travel!
       </p>
 
-      <form action="">
+      <form action="" id="travel-form">
         <input
           type="text"
           required
@@ -36,12 +37,7 @@
         <input type="submit" value="Submit" class="submit-button" />
       </form>
 
-      <div class="trip-description">
-        Dream destination close to Stockholm that offers a serene beach
-        experience amidst nature is Grinda Island. Located in the Stockholm
-        Archipelago, Grinda boasts beautiful beaches surrounded by lush greenery
-        and rocky landscapes.
-      </div>
+      <div id="destination"></div>
 
       <footer>
         This AI project was coded by
