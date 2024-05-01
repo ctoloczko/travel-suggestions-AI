@@ -3,12 +3,81 @@
   max-width: 600px;
   margin: 50px auto;
   background-size: cover;
-  padding: 20px;
-  color: azure;
+  padding: 30px;
+  color: #f7f7f7;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+h1 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+h3 {
+  font-weight: 250;
+  padding: 20px 0;
+}
+
+.instructions {
+  margin: 20px 0;
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.user-input {
+  width: 85%;
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+}
+
+.submit-button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0, 0.7);
+  width: 12%;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.trip-description {
+  padding: 12px;
+  text-align: justify;
+  background-color: #f7f7f7;
+  color: rgb(0, 0, 0, 0.6);
+  border-radius: 8px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  padding: 25px;
 }
 
 footer {
-  padding: 30px 15px 10px 15px;
+  padding: 5px auto;
   text-align: center;
   font-size: 12px;
+}
+
+footer a {
+  color: #f7f7f7;
+  font-weight: bold;
+  text-decoration: none;
 }
