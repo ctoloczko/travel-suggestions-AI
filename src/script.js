@@ -11,6 +11,7 @@ function findMyTrip(event) {
     autoStart: true,
     delay: 50,
     cursor: "",
+    pauseFor: 1500000,
   });
 }
 
