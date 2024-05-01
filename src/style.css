@@ -82,11 +82,11 @@ footer {
   padding: 5px auto;
   margin-top: 20px;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 footer a {
   color: #f7f7f7;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: none;
 }
