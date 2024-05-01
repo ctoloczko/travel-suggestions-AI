@@ -1,0 +1,14 @@
+.container {
+  background-image: url("https://images.pexels.com/photos/19766562/pexels-photo-19766562/free-photo-of-top-of-globe.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  max-width: 600px;
+  margin: 50px auto;
+  background-size: cover;
+  padding: 20px;
+  color: azure;
+}
+
+footer {
+  padding: 30px 15px 10px 15px;
+  text-align: center;
+  font-size: 12px;
+}
