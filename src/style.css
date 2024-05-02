@@ -64,7 +64,11 @@ h3 {
 form {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+}
+
+.hint {
+  font-size: 12px;
 }
 
 .trip-description {
