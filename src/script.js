@@ -23,7 +23,7 @@ function findMyTrip(event) {
   let tripDescription = document.querySelector("#destination");
   tripDescription.classList.add("trip-description");
   tripDescription.innerHTML = `<div class="blink">
-    "Please bear with us while we work our magic!"<div/>`;
+    Please bear with us while we work our magic!<div/>`;
 
   axios.get(apiUrl).then(displayTrip);
 }
