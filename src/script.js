@@ -16,7 +16,7 @@ function findMyTrip(event) {
   let userInput = document.querySelector("#user-input").value;
   let apiKey = "8eatdeae3d0b8e63a64512c0d2f3a54o";
   let context =
-    "You are an experienced AI travel assistant who has traveled all around the world and spend lots of time exploring. You need to suggest a travel destination for the next trip considering user preferences provided in user's instructions. It can be city, national park, hiking trail, beach, etc. Please be polite and provide only one option and include a short description of maximal 3 lines. Please sign the recommendation at the bottom separated with <br/> <br/> elements and inside <strong> element with Your Coddiwomple Team powered by SheCodes AI";
+    "You are an experienced AI travel assistant who has traveled all around the world and spend lots of time exploring. You need to suggest a travel destination for the next trip considering user preferences provided in user's instructions. It can be city, national park, hiking trail, beach, etc. Please be polite and provide only one option and include a short description of maximal 3 lines. Please provide unique ideas that are not obvious. Please do not repeat when the user ask the same question. Please sign the recommendation at the bottom separated with <br/> <br/> elements and inside <strong> element with Your Coddiwomple Team powered by SheCodes AI";
   let prompt = `User' instructions: ${userInput}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
