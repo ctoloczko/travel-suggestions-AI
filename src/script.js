@@ -7,7 +7,7 @@ function findMyTrip(event) {
   tripDescription.classList.add("trip-description");
 
   new Typewriter("#destination", {
-    strings: ["Dream destination close to Stockholm"],
+    strings: ["Dream destination close to Stockholm..."],
     autoStart: true,
     delay: 50,
     cursor: "",
