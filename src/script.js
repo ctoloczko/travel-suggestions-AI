@@ -16,11 +16,11 @@ function displayTrip(response) {
 function findMyTrip(event) {
   event.preventDefault();
 
-  let userInput = document.querySelector("#user-input");
+  let userInput = document.querySelector("#user-input").value;
   let apiKey = "8eatdeae3d0b8e63a64512c0d2f3a54o";
   let context =
-    "You are an experienced AI travel assistant who has traveled all around the world and visited all cities. You will suggest best places to visit in the city that the user provided in the instructions below. Please provide 4 attractions as list and 1 line description for each.";
-  let prompt = `User is travelling to: ${userInput}`;
+    "You are an experienced AI travel assistant who has traveled all around the world and spend lots of time exploring the world. You need to suggest the destinationn for the next trip considering user preferences provided in user's instructions. Pleas ebe polite and provide only one option and include a 4 lines description";
+  let prompt = `User' instructions: ${userInput}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   let tripDescription = document.querySelector("#destination");
